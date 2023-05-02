@@ -1,0 +1,32 @@
+@media all and (max-width: 45.63em) {
+  .container__wrapper-cards {
+    flex-direction: column;
+    padding: 4.4% 13.1% 0 13.1%;
+  }
+
+  .card-charly {
+    display: none;
+  }
+
+  .card-timmy {
+    display: none;
+  }
+
+  .card-sophia {
+    display: none;
+  }
+}
+
+@media all and (max-width: 25em) {
+  .heading-pets {
+    font-size: 1.56em;
+  }
+
+  .container__wrapper-cards {
+    padding: 4.4% 3.1% 0 3.1%;
+  }
+
+  .navigation__button-paginator {
+    padding: 1% 1%;
+  }
+}

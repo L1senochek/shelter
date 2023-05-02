@@ -1,0 +1,38 @@
+@media(hover: hover) {
+  .navbar__item:hover>.navbar__item-href>.item__text {
+    transition: all .5s ease;
+    color: #FAFAFA;
+  }
+
+  .navbar__item:hover>.navbar__item-href>.item__line {
+    opacity: 1;
+    transition: opacity .5s ease;
+  }
+
+  .content__button-primary:hover {
+    background-color: #FDDCC4;
+    transition: all .5s ease;
+    border: 0.12em solid #FDDCC4;
+  }
+
+  .slider-pets__arrow:hover>.slider-pets__arrow-svg>.arrow-svg-rect {
+    fill: #FDDCC4;
+    stroke: #FDDCC4;
+  }
+
+  .wrapper-cards__card:hover>.card__btn-pet {
+    background: #FDDCC4;
+    transition: all .5s ease;
+  }
+
+  .wrapper-cards__card:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background-color: #FFFFFF;
+    transition: all .5s ease;
+  }
+
+  .popup-window__close:hover>.popup-window__close-svg>.popup-window__close-rect {
+    fill: #FDDCC4;
+    stroke: #FDDCC4;
+  }
+}

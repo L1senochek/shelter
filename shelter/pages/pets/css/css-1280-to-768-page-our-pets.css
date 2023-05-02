@@ -1,0 +1,19 @@
+@media all and (max-width: 73.75em) {
+  .container__wrapper-cards {
+    padding: 4.4% 6.1% 0 6.1%;
+  }
+
+  .card-scarlett {
+    display: none;
+  }
+
+  .card-freddie {
+    display: none;
+  }
+}
+
+@media all and (max-width: 60em) {
+  .container__wrapper-cards {
+    padding: 4.4% 8.1% 0 8.1%;
+  }
+}

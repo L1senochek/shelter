@@ -1,0 +1,177 @@
+@media all and (min-width: 20em) and (max-width: 47.99em) {
+  .wrapper__start-screen {
+    padding: 281% 3% 0 3%;
+  }
+
+  .content__start-heading {
+    font-size: calc(1.6em + 1.19 * (100vw / 48));
+    /* 1.19 = (2.75 - 1.6) */
+  }
+
+  .content__start-subheading {
+    width: auto;
+  }
+
+  .content__heading-pets {
+    font-size: calc(1.56em + 0.64 * (100vw / 48));
+  }
+
+  .content__heading-help {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: calc(1.56em + 0.64 * (100vw / 48));
+    width: 80%;
+  }
+
+  .item__title {
+    font-size: calc(0.93em + 0.32 * (100vw / 47.9));
+    padding-top: 34%;
+  }
+
+  .li-pet-food,
+  .li-toys,
+  .li-vitamins,
+  .li-medicines,
+  .li-collars-or-leashes,
+  .li-sleeping-areas {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .content__heading-about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: calc(1.56em + 0.64 * (100vw / 48));
+  }
+
+  .content__wrapper-donation {
+    padding-right: 0%;
+    align-items: center;
+  }
+
+  .wrapper-donation__heading {
+    font-size: calc(1.56em + 0.64 * (100vw / 48));
+  }
+
+}
+
+@media all and (max-width: 46.75em) {
+  .wrapper__about {
+    padding: 6% 7% 11% 7%;
+  }
+
+  .content__heading-about,
+  .content__subheading-about {
+    white-space: normal;
+  }
+
+  .slider-pets__wrapper-cards {
+    justify-content: center;
+  }
+
+  .card-jennifer {
+    display: none;
+  }
+
+  .content__help-list {
+    gap: 14% 31.5%;
+    padding-top: 11%;
+    padding-bottom: 72%;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "g i"
+      "k .";
+  }
+
+  .content__wrapper-donation-dog {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 28.13em) {
+
+  .wrapper__start-screen {
+    padding: 293% 3% 0 3%;
+  }
+
+  .content__start-heading {
+    width: 80%;
+    align-self: auto;
+    text-align: center;
+  }
+
+  .content__start-subheading {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .about__pets-image-wrapper {
+    padding-left: 0;
+  }
+
+  .arrow-left {
+    grid-area: n;
+  }
+
+  .arrow-right {
+    grid-area: o;
+  }
+
+  .slider-pets__wrapper-cards {
+    grid-area: m;
+    padding: 10% 0% 7% 0%;
+  }
+
+  .content__slider-pets {
+    display: grid;
+    grid-template-areas:
+      "m m"
+      "n o";
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .item__icon {
+    width: 3em;
+    height: 3em;
+  }
+
+  .content__heading-help {
+    text-align: center;
+  }
+
+  .content__wrapper-donation {
+    align-items: center;
+  }
+
+  .wrapper-donation__subheading {
+    letter-spacing: 0;
+    padding: 8% 0 8% 0;
+  }
+
+  .wrapper-donation__credit-card-href {
+    width: 17.6em;
+    height: 2.7em;
+  }
+
+  .credit-card__content {
+    font-size: .94em;
+    line-height: 110%;
+  }
+
+  .wrapper-donation__description {
+    width: 23em;
+    padding-top: 6.5%;
+    text-align: justify;
+  }
+
+  .contacts__title,
+  .locations__title {
+    text-align: center;
+  }
+}
