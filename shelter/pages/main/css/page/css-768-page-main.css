@@ -1,0 +1,149 @@
+@media screen and (max-width: 48em) {
+
+  /* //////////section start-screen///////// */
+  .wrapper__start-screen {
+    flex-direction: column;
+  }
+
+  .start-screen__content {
+    align-items: center;
+  }
+
+  .content__start-heading {
+    line-height: 117%;
+    align-self: flex-start;
+  }
+
+  .content__start-subheading {
+    padding: 10% 0;
+  }
+
+  .content__button-primary-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .start-screen__start-image-wrapper {
+    padding: 3% 0 0 0;
+    align-self: flex-end;
+  }
+
+  .start-screen__start-image {
+    width: 75vw;
+    height: 77vw;
+    min-width: 15.2em;
+    min-height: 17em;
+  }
+
+  /* //////////section about///////// */
+
+  .container__about {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 11%;
+  }
+
+  .wrapper__about {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 8% 0 0 0;
+  }
+
+  .about__content {
+    padding: 0;
+  }
+
+  .content__heading-about {
+    line-height: 120%;
+    white-space: pre-line;
+  }
+
+  .content__subheading-about {
+    line-height: 155%;
+    white-space: pre-line;
+  }
+
+  .about__pets-image-wrapper {
+    padding-top: 19%;
+  }
+
+  .about__pets-image {
+    width: 39vw;
+    height: 53.1vw;
+    min-height: 22.1em;
+    min-width: 16.25em;
+  }
+
+  /* //////////section pets///////// */
+  .content__slider-pets {
+    padding: 5% 1% 5% 1%;
+  }
+
+  .slider-pets__wrapper-cards {
+    padding: 3% 1.5%;
+  }
+
+  .pets__content {
+    padding: 11% 3% 13% 3%;
+  }
+
+  .card-woody {
+    display: none;
+  }
+
+  /* //////////section help///////// */
+
+  .help__content {
+    padding-bottom: 6%;
+  }
+
+  .content__heading-help {
+    width: 41%;
+    padding: 10.5% 0 1.5% 0;
+  }
+
+  .content__help-list {
+    width: 100%;
+    gap: 30% 9.5%;
+    grid-template-areas:
+      "a . b . c"
+      "d . e . f"
+      "g . i . k";
+    padding-top: 6%;
+    padding-bottom: 31%;
+  }
+
+  .help-list__item {
+    padding-bottom: 0;
+  }
+
+  .item__title {
+    padding-top: 36%;
+  }
+
+  /* //////////section donation///////// */
+
+  .donation__content {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10% 0 13% 0;
+  }
+
+  .content__wrapper-donation {
+    padding-right: 3%;
+  }
+
+  .content__wrapper-donation-dog {
+    display: flex;
+    align-items: center;
+    padding: 8% 0% 0% 0%;
+  }
+
+  .content__donation-dog {
+    width: 65.75vw;
+    height: 33.98vw;
+    min-width: 16.25em;
+    min-height: 8.45em;
+  }
+}

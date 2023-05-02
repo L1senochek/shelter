@@ -1,0 +1,81 @@
+@media all and (min-width: 48em) and (max-width: 79.9em) {
+  .wrapper__start-screen {
+    flex-direction: column;
+  }
+
+  .content__start-heading {
+    align-self: flex-start;
+  }
+
+  /* //////////section about///////// */
+
+  .wrapper__about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about__pets-image-wrapper {
+    padding-top: 10%;
+  }
+
+  .content__heading-about {
+    white-space: normal;
+  }
+
+  .content__subheading-about {
+    white-space: normal;
+  }
+
+  .li-pet-food,
+  .li-toys,
+  .li-vitamins,
+  .li-medicines,
+  .li-collars-or-leashes,
+  .li-sleeping-areas {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .item__title_pet-food,
+  .item__title_li-toys,
+  .item__title_li-vitamins,
+  .item__title_li-medicines,
+  .item__title_li-collars-or-leashes,
+  .item__title_li-sleeping-areas {
+    padding-top: 35%;
+  }
+}
+
+@media screen and (max-width: 69em) {
+  .card-woody {
+    display: none;
+  }
+
+  .content__help-list {
+    width: 60%;
+    gap: 20% 0%;
+    grid-template-areas:
+      "a . b . c . d . e"
+      ". f . g . i . k .";
+    padding-top: 3%;
+    padding-bottom: 10%;
+  }
+
+  /* //////////////////////////// */
+  .donation__content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content__wrapper-donation-dog {
+    padding-top: 8%;
+  }
+
+  .content__donation-dog {
+    margin: 0;
+  }
+
+  .wrapper-donation__description {
+    padding-top: 5.5%;
+  }
+}

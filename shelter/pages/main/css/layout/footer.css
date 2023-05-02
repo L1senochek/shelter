@@ -1,0 +1,237 @@
+.container__footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url("../../../../assets/img/gradient/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 80em;
+  padding: 3% 3% 0% 3%;
+}
+
+.footer__wrapper-item-wrapper {
+  display: flex;
+}
+
+.footer__wrapper-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wrapper-item__footer-image {
+  background: url("../../../../assets/img/main/footer-puppy.png");
+  width: 18.75em;
+  height: 19.38em;
+  background-size: cover;
+}
+
+.contacts__title,
+.locations__title {
+  font-weight: 400;
+  font-size: 2.2em;
+  line-height: 130%;
+  letter-spacing: .06em;
+  color: #FFFFFF;
+}
+
+.contacts__title {
+  width: 8.5em;
+}
+
+.wrapper-item__locations,
+.wrapper-item__contacts {
+  padding: 6% 0%;
+}
+
+.item__locations {
+  padding: 6% 0 0 47%;
+}
+
+.locations__title {
+  width: 8.5em;
+}
+
+.contacts__mail,
+.contacts__phone,
+.locations__address-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.locations__wrapper-address-boston {
+  padding: 10.4% 0;
+}
+
+.contacts__phone-wrapper {
+  padding: 12% 0;
+}
+
+.contacts__mail-wrapper {
+  padding-top: 12%;
+}
+
+.mail__text-email,
+.mail__text-phone {
+  padding-left: 6%;
+}
+
+.mail__text-email,
+.mail__text-phone,
+.address-item__text-address {
+  font-size: 1.25em;
+  line-height: 115%;
+  letter-spacing: .06em;
+  color: #F1CDB3;
+}
+
+.text-address-boston {
+  width: 100%;
+}
+
+.text-address-boston,
+.text-address-london {
+  padding-left: 7%;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 69em) {
+  .footer__content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 3% 3% 0% 3%;
+  }
+
+  .item__locations {
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .footer__content {
+    align-items: center;
+  }
+
+  .footer__wrapper-item-wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer__wrapper-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2.5% 0 2.5%;
+  }
+
+  .item__locations {
+    padding: 0;
+  }
+
+  .wrapper-item__contacts {
+    padding: 0;
+  }
+
+  .footer__wrapper-item-footer-image {
+    padding-top: 4%;
+  }
+}
+
+@media all and (min-width: 20em) and (max-width: 47.99em) {
+
+  .contacts__title,
+  .locations__title {
+    font-size: calc(1.56em + 0.64 * (100vw / 48));
+  }
+}
+
+@media all and (max-width: 46.75em) {
+  .footer__wrapper-item-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__wrapper-item-footer-image {
+    width: auto;
+  }
+
+  .wrapper-item__footer-image {
+    width: 16.25em;
+    height: 16.81em;
+  }
+}
+
+@media all and (max-width: 28.13em) {
+  .wrapper-item__footer-image {
+    width: 16.25em;
+    height: 16.81em;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .footer__wrapper-item-wrapper {
+    flex-direction: column;
+  }
+
+  .footer__wrapper-item {
+    padding: 7% 0% 0 0%;
+    width: 100%;
+  }
+
+  .contacts__title,
+  .locations__title {
+    width: 9.5em;
+    font-size: 1.56em;
+    text-align: center;
+  }
+
+  .item__contacts {
+    padding: 0 0% 0 8%;
+  }
+
+  .contacts__title {
+    padding-left: 5.3%;
+  }
+
+  .contacts__mail-wrapper,
+  .contacts__phone-wrapper {
+    padding-top: 16%;
+  }
+
+  .contacts__phone-wrapper {
+    padding-left: 3%;
+    padding-bottom: 7%;
+  }
+
+  .mail__text-email,
+  .mail__text-phone {
+    padding-left: 8%;
+    white-space: pre;
+  }
+
+  .locations__title {
+    padding-left: 10%;
+    width: 90%;
+  }
+
+  .locations__wrapper-address-boston {
+    padding: 12.4% 0;
+  }
+
+  .footer__wrapper-item-footer-image {
+    padding: 13% 7% 0 7%;
+  }
+
+  .wrapper-item__footer-image {
+    width: 16.25em;
+    height: 16.81em;
+  }
+}

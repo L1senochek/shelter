@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Georgia', Arial, Verdana, serif, sans-serif;
+  font-size: 1em;
+  background: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}

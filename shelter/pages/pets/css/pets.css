@@ -1,0 +1,16 @@
+@import url('../../main/css/main.css');
+@import url('../../main/css/layout/header-pets.css');
+
+@import url('./css-1280-page-our-pets.css');
+@import url('./media-hover-pets.css');
+@import url('./css-1280-to-768-page-our-pets.css');
+@import url('./css-768-page-our-pets.css');
+@import url('./css-768-to-320-page-our-pets.css');
+@import url('./css-320-page-our-pets.css');
+
+@import url('../../main/css/layout/footer.css');
+@import url('../../main/css/layout/footer-pets.css');
+
+/* @import url('./page/popup.css'); */
+/* @import url('./page/burger-menu.css'); */
+@import url('./burger-menu-pets.css');

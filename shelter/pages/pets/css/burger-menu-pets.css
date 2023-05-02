@@ -1,0 +1,19 @@
+@media (max-width: 47.99em) {
+  body._lock-scroll {
+    overflow: hidden;
+  }
+
+  .navigation-bar__list{
+    background-color: #FFFFFF;
+  }
+  .navigation-bar__list>.list__navbar>.navbar__item>.navbar__item-href>.item__text {
+    font-size: 2em;
+    color: #FFFFFF;;
+    /* color: #FAFAFA; */
+  }
+  .navigation-bar__list._active-hamburger>.list__navbar>.navbar__item>.navbar__item-href>.item__text {
+    font-size: 2em;
+    /* color: #292929; */
+    color: #545454;
+  }
+}

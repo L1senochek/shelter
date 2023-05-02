@@ -1,0 +1,117 @@
+@media (max-width: 47.99em) {
+  body._lock-scroll {
+    overflow: hidden;
+  }
+
+  .navigation-hamburger__menu {
+    z-index: 6;
+  }
+
+  .navigation-hamburger__menu._active-hamburger {
+    transform: rotate(90deg);
+    transition: transform .5s ease;
+
+  }
+
+  .navigation-bar__list {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -150%;
+    width: 85.5%;
+    width: 20em;
+    height: 100vh;
+    background-color: #292929;
+    padding: 90px 40px 30px 40px;
+    transition: right 0.5s ease 0s;
+    overflow: auto;
+    justify-content: flex-start;
+    z-index: 5;
+    flex-direction: column;
+  }
+
+  .navigation-bar__list._active-hamburger {
+    /* display: flex; */
+    right: 0;
+    overflow: auto;
+    /* transition: all 0.5s ease 0s; */
+
+  }
+
+  .navigation-bar__list._active-hamburger>.list__navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 33%;
+  }
+
+  .navigation-bar__list._active-hamburger>.list__navbar>.navbar__item {
+    padding: 9% 0;
+
+  }
+
+  .navigation-bar__list>.list__navbar>.navbar__item>.navbar__item-href>.item__text {
+    font-size: 2em;
+    color: #292929;
+    /* color: #FAFAFA; */
+  }
+
+  .navigation-bar__list._active-hamburger>.list__navbar>.navbar__item>.navbar__item-href>.item__text {
+    font-size: 2em;
+    /* color: #292929; */
+    color: #FAFAFA;
+  }
+
+  .navigation-curtain {
+    /* background: rgba(41, 41, 41, 0.6); */
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s ease 0s;
+
+  }
+
+  .navigation-curtain._active-hamburger {
+    display: flex;
+    background: rgba(41, 41, 41, 0.6);
+  }
+}
+
+@media screen and (max-width: 23.44em) {
+  .navigation-hamburger__menu {
+    width: 100%;
+    height: 1.5em;
+  }
+
+  .wrapper__navigation-bar {
+    padding: 5% 5%;
+  }
+
+  .navigation-bar__list._active-hamburger>.list__navbar {
+    padding-top: 58%;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .wrapper__navigation-bar {
+    padding: 4.5% 6.3% 0% 6.3%;
+  }
+
+  body._lock-scroll>.wrapper>.container__header>.wrapper__navigation-bar {
+    /* padding: 6.5% 4% 0% 6.3%; */
+  }
+
+  .navigation-bar__list._active-hamburger {
+    width: 100%;
+  }
+
+  .navigation-hamburger__menu {
+    /* width: 11%; */
+    /* height: 2.5em; */
+  }
+}

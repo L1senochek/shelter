@@ -1,0 +1,21 @@
+@media all and (max-width: 48em) {
+  .container__pets-content {
+    padding-top: 10.5%;
+  }
+
+  .container__wrapper-cards {
+    padding: 4.4% 12.1% 0 12.1%;
+  }
+
+  .wrapper-cards__card {
+    margin: 0 0 5% 0;
+  }
+
+  .container__navigation {
+    padding-top: 1%;
+  }
+
+  .container__pets-content {
+    padding-bottom: 8.9%;
+  }
+}

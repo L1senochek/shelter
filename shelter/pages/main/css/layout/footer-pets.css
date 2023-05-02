@@ -1,0 +1,29 @@
+@media all and (max-width: 48em) {
+  .footer__content {
+    padding: 0% 3% 0% 3%;
+  }
+
+  .footer__wrapper-item {
+    width: auto;
+    padding: 4.5% 3% 0 3%;
+  }
+
+  .footer__wrapper-item-image {
+    padding-top: 3.5%;
+  }
+}
+
+@media all and (max-width: 20em) {
+  .footer__content {
+    padding: 3% 3% 0% 3%;
+  }
+
+  .footer__wrapper-item {
+    width: 100%;
+    padding: 7% 0% 0 0%;
+  }
+
+  .footer__wrapper-item-image {
+    padding-top: 13%;
+  }
+}

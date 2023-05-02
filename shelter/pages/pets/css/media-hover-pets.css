@@ -1,0 +1,11 @@
+@media(hover: hover) {
+  .navbar__item:hover>.navbar__item-href>.item__text-pets {
+    color: #292929;
+  }
+
+  .navigation__arrow-forward:hover>.svg-arrow-forward>rect,
+  .navigation__arrow-double-forward:hover>.svg-arrow-double-forward>rect {
+    fill: #FDDCC4;
+    stroke: #FDDCC4;
+  }
+}
